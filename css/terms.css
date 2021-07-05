@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .hero-image {
+      position: relative;
+      text-align: center;
+      color: white;
+  }
+  
+  .hero-image img {
+    filter: brightness(80%);
+  }
+  
+  .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+  }
+  
+  .subtitle {
+      font-size:35px; 
+      line-height:1.3em; 
+      font-weight:bold; 
+      color:#1F8E94;
+      text-decoration:underline;
+  }
+  
+  .subtext {
+      font-size:20px; 
+      line-height:1.3em
+  }
+  
+  .terms {
+      margin-left: 100px;
+      margin-right: 100px;
+  }
+  

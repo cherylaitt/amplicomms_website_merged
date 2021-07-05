@@ -1,0 +1,138 @@
+:root {
+    --color_0: 255,255,255;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 255,255,255;
+    --color_12: 204,204,204;
+    --color_13: 160,160,159;
+    --color_14: 96,94,94;
+    --color_15: 47,46,46;
+    --color_16: 187,243,232;
+    --color_17: 151,231,215;
+    --color_18: 68,219,189;
+    --color_19: 45,146,126;
+    --color_20: 23,73,63;
+    --color_21: 220,218,232;
+    --color_22: 148,146,161;
+    --color_23: 112,110,128;
+    --color_24: 96,92,122;
+    --color_25: 70,64,110;
+    --color_26: 174,179,191;
+    --color_27: 109,117,138;
+    --color_28: 74,90,130;
+    --color_29: 42,58,99;
+    --color_30: 20,35,72;
+    --color_31: 244,234,177;
+    --color_32: 233,219,137;
+    --color_33: 222,195,40;
+    --color_34: 148,130,27;
+    --color_35: 74,65,13;
+    --font_0: normal normal normal 47px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 68px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_3: normal normal normal 40px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_4: normal normal normal 42px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    --font_5: normal normal normal 38px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    --font_6: normal normal normal 20px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    --font_7: normal normal normal 15px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    --font_8: normal normal normal 20px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;
+    --font_9: normal normal normal 12px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 0px;
+    --wix-ads-top-height: 0px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --minViewportSize: 320;
+    --maxViewportSize: 1920;
+}
+
+/* Navbar properties for all pages */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #e7e7e7;
+}
+
+.container {
+    height: 143px;
+}
+
+.navbar-brand {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.navbar-collapse {
+    padding-top: 14px;
+    float:right
+}
+/* Navbar properties ends */
+
+.carousel-inner {
+    height: 730px;
+}
+/*Carousel properties ends */
+
+.font_0 {
+    font: var(--font_0);
+    color: rgb(var(--color_15));
+    font-weight: bold;
+}
+
+.font_8 {
+    font: var(--font_8);
+    color: rgb(var(--color_15));
+}
+/* Descript properties ends */
+
+.maintxt {
+    position: relative;
+}
+.maintxt > img, .overlay-text {
+    position: absolute;
+}
+.overlay-text {
+    padding: 150px 50px;
+    text-transform: uppercase;
+}
+
+.font_3 {
+    font: var(--font_3);
+    color: rgb(var(--color_0));
+}
+
+/* Product properties ends */
+
+.card-body .illustration {
+    text-align:center;
+    padding:15px 0 20px;
+    font-size:80px;
+    color:#2980ef;
+}
+
+.card-body .card-title {
+    text-align:center;
+    line-height: 1.2em;
+    padding:15px 0 20px;
+    font-size:20px;
+    letter-spacing: 0.15em;
+}
+
+.card-body .card-text {
+    text-align:center;
+    line-height: 1.2em;
+    padding:15px 0 20px;
+    font-size:18px;
+    letter-spacing: 0.05em;
+}
+
+.font_7 {
+    font: var(--font_7);
+    color: rgb(var(--color_14));
+}

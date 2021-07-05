@@ -1,0 +1,92 @@
+.table {
+    display: flex;
+    flex-flow: column nowrap;
+    font-size: .8rem;
+    margin: 5rem;
+    line-height: 1.5;
+    /* border-bottom: 1px solid #d0d0d0; */
+    flex: 1 1 auto;
+}
+
+.th {
+    display: none;
+    font-weight: 700;
+    background-color: #f2f2f2;
+}
+
+.th>.td {
+    white-space: normal;
+    justify-content: center;
+}
+
+.tr {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.tr:nth-of-type(even) {
+    background-color: ffffff;
+}
+
+.tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+.td {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 2em;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0px;
+    white-space: nowrap;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.search {
+    float: right;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd} */
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}

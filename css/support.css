@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .hero-image {
+      position: relative;
+      text-align: center;
+      color: white;
+  }
+  
+  .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  
+  }
+  
+  .text {
+      margin-top: 50px;
+      margin-left: 100px;
+      width: 900px;
+  }
+  
+  /* textarea rectangle */
+  .msg-send{  
+    background: rgb(0, 128, 150);
+  }
+  .msg-receive{
+    background: rgb(0, 128, 150);
+  }
+  .msg-send{
+    width: 700px;
+    /* height: 150px; */
+    padding: 5px 5px 5px 10px;
+    margin-top: 80px;
+    margin-left: 130px;
+    border-radius: 3px;
+    line-height: 30px;
+    position: relative;
+    color: white;
+  }
+  
+  .msg-receive{
+    width: 700px;
+    /* height: 150px; */
+    padding: 5px 5px 5px 10px;
+    margin-top: 80px;
+    margin-left: 270px;
+    border-radius: 3px;
+    line-height: 30px;
+    position: relative;
+    color: white;
+  }
+  
+  /* the triangle of receive chat area */
+  .msg-receive:before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent rgb(0, 128, 150) transparent transparent;
+    left: -29px;
+    top: 50px;
+  }
+  .msg-send:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent transparent transparent rgb(0, 128, 150);
+    right: -29px;
+    top: 50px;
+  }
+  
+  .msg-insert {
+      display: grid;
+      position: static;
+      width: 100%;
+  }
+  
+  .textbox1 {
+      grid-area: 1/1/2/2;
+  }
+  .textbox2 {
+      grid-area: 3/1/4/2;
+  }
+  .textbox3 {
+      grid-area: 5/1/6/2;
+  }
+  .textbox4 {
+      grid-area: 7/1/8/2;
+  }
+  .textbox5 {
+      grid-area: 9/1/10/2;
+  }
+  
+  .img1 {
+      margin-top: 100px;
+      margin-left: -170px;
+      grid-area: 1/2/2/3;
+  }
+  .img2 {
+      margin-top: 100px;
+      margin-left: 130px;
+      grid-area: 3/1/4/2;
+  }
+  .img3 {
+      margin-top: 100px;
+      margin-left: -170px;
+      grid-area: 5/2/6/3;
+  }
+  .img4 {
+      margin-top: 100px;
+      margin-left: 130px;
+      grid-area: 7/1/8/2;
+  }
+  .img5 {
+      margin-top: 100px;
+      margin-left: -170px;
+      grid-area: 9/2/10/3;
+  }
